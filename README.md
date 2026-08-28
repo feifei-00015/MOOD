@@ -5,7 +5,7 @@
   <p>一款把聊天、情绪、事件、计划和生活回忆串在一起的桌面应用。</p>
   <p><a href="README.md">简体中文</a> · <a href="README_EN.md">English</a></p>
   <p><code>v1.0.0 Beta</code> · Windows x64 · macOS Apple Silicon</p>
-  <p><a href="../../releases/latest/download/MOOD-1.0.0-Beta-x64-Setup.exe">下载 Windows 版</a> · <a href="../../releases/latest/download/MOOD-1.0.0-arm64.dmg">下载 macOS 版</a> · <a href="../../releases/latest">查看最新版本</a></p>
+  <p><a href="../../releases/download/v1.0.0-beta/MOOD-1.0.0-Beta-x64-Setup.exe">下载 Windows 版</a> · <a href="../../releases/download/v1.0.0-beta/MOOD-1.0.0-arm64.dmg">下载 macOS 版</a> · <a href="../../releases/tag/v1.0.0-beta">查看当前版本</a></p>
 </div>
 
 ![MOOD 桌面主页面动效](docs/readme-assets/hero-desktop.gif)
@@ -108,8 +108,8 @@ MOOD `v1.0.0 Beta` 目前提供 Windows 和 macOS 两个桌面版本：
 
 | 平台 | 支持架构 | 下载 |
 | --- | --- | --- |
-| Windows | x64 | [下载 `.exe` 安装程序](../../releases/latest/download/MOOD-1.0.0-Beta-x64-Setup.exe) |
-| macOS | Apple Silicon / arm64 | [下载 `.dmg` 安装包](../../releases/latest/download/MOOD-1.0.0-arm64.dmg) |
+| Windows | x64 | [下载 `.exe` 安装程序](../../releases/download/v1.0.0-beta/MOOD-1.0.0-Beta-x64-Setup.exe) |
+| macOS | Apple Silicon / arm64 | [下载 `.dmg` 安装包](../../releases/download/v1.0.0-beta/MOOD-1.0.0-arm64.dmg) |
 | Linux | 暂未提供 | — |
 
 ### Windows

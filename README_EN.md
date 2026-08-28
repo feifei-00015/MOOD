@@ -5,7 +5,7 @@
   <p>A desktop app that connects conversations, emotions, experiences, plans, and everyday memories.</p>
   <p><a href="README.md">简体中文</a> · <a href="README_EN.md">English</a></p>
   <p><code>v1.0.0 Beta</code> · Windows x64 · macOS Apple Silicon</p>
-  <p><a href="../../releases/latest/download/MOOD-1.0.0-Beta-x64-Setup.exe">Download for Windows</a> · <a href="../../releases/latest/download/MOOD-1.0.0-arm64.dmg">Download for macOS</a> · <a href="../../releases/latest">View the latest release</a></p>
+  <p><a href="../../releases/download/v1.0.0-beta/MOOD-1.0.0-Beta-x64-Setup.exe">Download for Windows</a> · <a href="../../releases/download/v1.0.0-beta/MOOD-1.0.0-arm64.dmg">Download for macOS</a> · <a href="../../releases/tag/v1.0.0-beta">View this release</a></p>
 </div>
 
 ![The animated MOOD desktop](docs/readme-assets/hero-desktop.gif)
@@ -112,8 +112,8 @@ MOOD `v1.0.0 Beta` is currently available for Windows and macOS:
 
 | Platform | Architecture | Download |
 | --- | --- | --- |
-| Windows | x64 | [Download the `.exe` installer](../../releases/latest/download/MOOD-1.0.0-Beta-x64-Setup.exe) |
-| macOS | Apple Silicon / arm64 | [Download the `.dmg` package](../../releases/latest/download/MOOD-1.0.0-arm64.dmg) |
+| Windows | x64 | [Download the `.exe` installer](../../releases/download/v1.0.0-beta/MOOD-1.0.0-Beta-x64-Setup.exe) |
+| macOS | Apple Silicon / arm64 | [Download the `.dmg` package](../../releases/download/v1.0.0-beta/MOOD-1.0.0-arm64.dmg) |
 | Linux | Not available yet | — |
 
 ### Windows
