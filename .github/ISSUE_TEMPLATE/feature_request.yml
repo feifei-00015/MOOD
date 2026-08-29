@@ -1,0 +1,44 @@
+name: 功能建议 / Feature request
+description: 分享你希望 MOOD 改进或加入的功能
+title: "[Idea] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢你愿意分享想法。即使建议还不完整也没关系，真实的使用场景最有帮助。
+  - type: textarea
+    id: situation
+    attributes:
+      label: 你在什么情况下需要这个功能？
+      placeholder: 当我……时，我希望 MOOD 可以……
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你的想法
+      description: 请描述你期待的使用方式或结果。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 现在是怎样处理的？
+      description: 如果你目前有替代方法，也欢迎一起告诉我们。
+  - type: dropdown
+    id: area
+    attributes:
+      label: 这个建议更接近哪个部分？
+      options:
+        - 聊天与日常情绪支持
+        - 事件、故事与长期记忆
+        - 情绪日历
+        - 计划与番茄钟
+        - 邮票收藏
+        - 数据导出与其他 Agent
+        - 安装、性能与体积
+        - 其他
+    validations:
+      required: true

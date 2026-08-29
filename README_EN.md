@@ -52,27 +52,9 @@ MOOD is still in beta. Exporting a backup of important records regularly—and b
 
 ## Why is the installer fairly large?
 
-MOOD bundles the desktop runtime, its local AI/RAG service, and a ready-to-use index of supportive-conversation cases. The initial download is larger, but you do not need to install Python, a database, or a separate runtime yourself.
+To make emotional-support retrieval available immediately after installation, the current beta includes a RAG knowledge index with more than 30,000 vector records. Its compressed archive is about **155 MB** and is unpacked into a local working index of about **324 MB** on first launch.
 
-One of the largest parts is the RAG index, which contains more than 30,000 vector records. On first launch, its roughly 155 MB archive is unpacked into a working index of about 324 MB. This is one shared base resource bundled with the app; adding one of your own records does not create another copy of the whole database.
-
-For reference, the current macOS app itself is about 622 MB, mostly made up of:
-
-| Main component | Approx. size | What it is for |
-| --- | ---: | --- |
-| Electron / Chromium desktop runtime | 231 MB | Runs the same desktop interface on Windows and macOS |
-| Compressed base RAG index | 155 MB | More than 30,000 prebuilt Embedding records |
-| Web interface and app resources | 134 MB | MOOD's screens, features, and static assets |
-| Local AI / RAG service | 71 MB | Retrieval, context preparation, and service communication |
-| Source supportive-conversation cases | 24 MB | Text references used by the RAG system |
-
-First launch also creates the roughly 324 MB working RAG index, so we recommend keeping at least **1–1.2 GB** of disk space free. Final usage varies slightly by operating system and installation method. This is disk usage—not the amount of memory MOOD constantly consumes while running.
-
-The data that belongs specifically to you grows much more slowly:
-
-- Conversations, events, emotions, and plans are mostly text and usually remain at MB-scale even with long-term use.
-- Personal long-term memory adds a small search entry for each confirmed item. Even thousands of items remain far smaller than the bundled 30,000+ record base index.
-- Stamp photos are the part most likely to grow noticeably. Each photo is cropped to 800×1000 WebP and encrypted locally; the exact size depends on the image, but it is usually a few hundred KB per photo.
+`v1.0.0 Beta` is still being actively refined. Future releases will use real-world feedback to improve the features, remove unnecessary dependencies, and compress resources so downloads and installation become lighter. If you have thoughts about the feature set, experience, or app size, we would genuinely like to hear them through one of the feedback channels below.
 
 ## What is MOOD trying to do?
 
@@ -162,7 +144,17 @@ The export does not include stamp images, system logs, account credentials, or A
 
 ## Feedback
 
-If you encounter a problem or have an idea for MOOD, please tell us through [GitHub Issues](https://github.com/feifei-00015/MOOD/issues). Including what you were doing and what you saw will help us investigate.
+GitHub Issues is the main public feedback channel. Simple templates are available for both problems and ideas:
+
+- [Report a problem](https://github.com/feifei-00015/MOOD/issues/new?template=bug_report.yml)
+- [Suggest a feature](https://github.com/feifei-00015/MOOD/issues/new?template=feature_request.yml)
+- Email: [lxy20030628@sina.com](mailto:lxy20030628@sina.com)
+
+GitHub Issues are public by default. Please do not include API keys, private conversations, or other personal information. For a private conversation, you can email us or scan the WeChat QR code below:
+
+<div align="center">
+  <img src="docs/readme-assets/wechat-qr.jpg" width="360" alt="Personal WeChat QR code for the MOOD creator">
+</div>
 
 <div align="center">
   <p><strong>Models will change. You should not have to introduce yourself from scratch every time.</strong></p>
