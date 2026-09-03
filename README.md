@@ -4,27 +4,27 @@
   <p><strong>记录自己，也让 AI 慢慢认识你。</strong></p>
   <p>一款把聊天、情绪、事件、计划和生活回忆串在一起的桌面应用。</p>
   <p>该介绍文档支持：<strong>简体中文</strong> · <a href="README_EN.md">English</a></p>
-  <p><code>v1.0.0 Beta</code> · Windows x64 · macOS Apple Silicon</p>
-  <p><a href="https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta/MOOD-1.0.0-Beta-x64-Setup.exe">下载 Windows 版</a> · <a href="https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta/MOOD-1.0.0-arm64.dmg">下载 macOS 版</a> · <a href="https://github.com/feifei-00015/MOOD/releases/tag/v1.0.0-beta">查看当前版本</a></p>
+  <p><code>v1.0.0 Beta 2</code> · Windows x64 · macOS Apple Silicon</p>
+  <p><a href="https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta.2/MOOD-1.0.0-x64-Setup.exe">下载 Windows 版</a> · <a href="https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta.2/MOOD-1.0.0-arm64.dmg">下载 macOS 版</a> · <a href="https://github.com/feifei-00015/MOOD/releases/tag/v1.0.0-beta.2">查看当前版本</a></p>
 </div>
 
 [![MOOD 桌面主页面动效](docs/readme-assets/hero-desktop.gif)](docs/readme-assets/hero-desktop.gif)
 
 ## 快速开始
 
-MOOD `v1.0.0 Beta` 目前提供 Windows 和 macOS 两个桌面版本：
+MOOD `v1.0.0 Beta 2` 目前提供 Windows 和 macOS 两个桌面版本：
 
 | 平台 | 支持架构 | 安装包大小 | 下载 |
 | --- | --- | ---: | --- |
-| Windows | x64 | 约 379 MB | [下载 `.exe` 安装程序](https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta/MOOD-1.0.0-Beta-x64-Setup.exe) |
-| macOS | Apple Silicon / arm64 | 约 404 MB | [下载 `.dmg` 安装包](https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta/MOOD-1.0.0-arm64.dmg) |
+| Windows | x64 | 约 379 MB | [下载 `.exe` 安装程序](https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta.2/MOOD-1.0.0-x64-Setup.exe) |
+| macOS | Apple Silicon / arm64 | 约 404 MB | [下载 `.dmg` 安装包](https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta.2/MOOD-1.0.0-arm64.dmg) |
 | Linux | 暂未提供 | — | — |
 
 [![MOOD 登录页面动效](docs/readme-assets/login.gif)](docs/readme-assets/login.gif)
 
 ### Windows
 
-1. 下载 `MOOD-1.0.0-Beta-x64-Setup.exe`。
+1. 下载 `MOOD-1.0.0-x64-Setup.exe`。
 2. 运行安装程序，按提示完成安装。
 3. 从开始菜单或桌面打开 MOOD。
 
@@ -54,7 +54,7 @@ Beta 版本仍在持续打磨。重要资料请定期导出备份，升级前也
 
 为了让 Beta 版本安装后就能使用心理支持检索，MOOD 目前随应用带有一份包含 3 万多条向量记录的 RAG 知识索引。安装包中的压缩索引约为 **155 MB**，第一次启动后会展开为约 **324 MB** 的本地工作索引。
 
-`v1.0.0 Beta` 仍是一个正在认真打磨的测试版本。后续会结合大家的实际使用反馈继续精进功能、整理依赖并压缩资源，尽量让下载和安装体积更加友好。如果你对功能取舍、使用体验或体积优化有想法，欢迎通过文末的反馈渠道告诉我们。
+`v1.0.0 Beta 2` 仍是一个正在认真打磨的测试版本。后续会结合大家的实际使用反馈继续精进功能、整理依赖并压缩资源，尽量让下载和安装体积更加友好。如果你对功能取舍、使用体验或体积优化有想法，欢迎通过文末的反馈渠道告诉我们。
 
 ## MOOD 想做什么？
 

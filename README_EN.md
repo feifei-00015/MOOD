@@ -4,27 +4,27 @@
   <p><strong>A place to record your life—and help AI understand you over time.</strong></p>
   <p>A desktop app that connects conversations, emotions, experiences, plans, and everyday memories.</p>
   <p>This introduction is available in: <a href="README.md">简体中文</a> · <strong>English</strong></p>
-  <p><code>v1.0.0 Beta</code> · Windows x64 · macOS Apple Silicon</p>
-  <p><a href="https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta/MOOD-1.0.0-Beta-x64-Setup.exe">Download for Windows</a> · <a href="https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta/MOOD-1.0.0-arm64.dmg">Download for macOS</a> · <a href="https://github.com/feifei-00015/MOOD/releases/tag/v1.0.0-beta">View this release</a></p>
+  <p><code>v1.0.0 Beta 2</code> · Windows x64 · macOS Apple Silicon</p>
+  <p><a href="https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta.2/MOOD-1.0.0-x64-Setup.exe">Download for Windows</a> · <a href="https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta.2/MOOD-1.0.0-arm64.dmg">Download for macOS</a> · <a href="https://github.com/feifei-00015/MOOD/releases/tag/v1.0.0-beta.2">View this release</a></p>
 </div>
 
 [![The animated MOOD desktop](docs/readme-assets/hero-desktop.gif)](docs/readme-assets/hero-desktop.gif)
 
 ## Quick start
 
-MOOD `v1.0.0 Beta` is currently available for Windows and macOS:
+MOOD `v1.0.0 Beta 2` is currently available for Windows and macOS:
 
 | Platform | Architecture | Installer size | Download |
 | --- | --- | ---: | --- |
-| Windows | x64 | About 379 MB | [Download the `.exe` installer](https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta/MOOD-1.0.0-Beta-x64-Setup.exe) |
-| macOS | Apple Silicon / arm64 | About 404 MB | [Download the `.dmg` package](https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta/MOOD-1.0.0-arm64.dmg) |
+| Windows | x64 | About 379 MB | [Download the `.exe` installer](https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta.2/MOOD-1.0.0-x64-Setup.exe) |
+| macOS | Apple Silicon / arm64 | About 404 MB | [Download the `.dmg` package](https://github.com/feifei-00015/MOOD/releases/download/v1.0.0-beta.2/MOOD-1.0.0-arm64.dmg) |
 | Linux | Not available yet | — | — |
 
 [![The animated MOOD sign-in screen](docs/readme-assets/login.gif)](docs/readme-assets/login.gif)
 
 ### Windows
 
-1. Download `MOOD-1.0.0-Beta-x64-Setup.exe`.
+1. Download `MOOD-1.0.0-x64-Setup.exe`.
 2. Run the installer and follow the prompts.
 3. Open MOOD from the Start menu or desktop.
 
@@ -54,7 +54,7 @@ MOOD is still in beta. Exporting a backup of important records regularly—and b
 
 To make emotional-support retrieval available immediately after installation, the current beta includes a RAG knowledge index with more than 30,000 vector records. Its compressed archive is about **155 MB** and is unpacked into a local working index of about **324 MB** on first launch.
 
-`v1.0.0 Beta` is still being actively refined. Future releases will use real-world feedback to improve the features, remove unnecessary dependencies, and compress resources so downloads and installation become lighter. If you have thoughts about the feature set, experience, or app size, we would genuinely like to hear them through one of the feedback channels below.
+`v1.0.0 Beta 2` is still being actively refined. Future releases will use real-world feedback to improve the features, remove unnecessary dependencies, and compress resources so downloads and installation become lighter. If you have thoughts about the feature set, experience, or app size, we would genuinely like to hear them through one of the feedback channels below.
 
 ## What is MOOD trying to do?
 
